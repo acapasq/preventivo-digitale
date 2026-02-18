@@ -700,6 +700,104 @@ html, body {
 }
 
 /* ═══════════════════════════════════════════════════════════════
+   3D DESIGN — Gradients, Shadows & Depth
+   ═══════════════════════════════════════════════════════════════ */
+
+/* Cards — 3D depth with gradient and layered shadows */
+.card {
+  background: linear-gradient(
+    165deg,
+    rgba(255, 255, 255, 0.08) 0%,
+    rgba(255, 255, 255, 0.04) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.03),
+    0 4px 16px rgba(0, 0, 0, 0.3),
+    0 1px 3px rgba(0, 0, 0, 0.2);
+}
+.card:hover {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    0 8px 32px rgba(0, 0, 0, 0.4),
+    0 2px 8px rgba(0, 0, 0, 0.25);
+  transform: translateY(-4px);
+}
+
+/* Titles — subtle text shadow for depth */
+.t-display-xl,
+.t-display,
+.t-title {
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Eyebrow badge — gradient + shadow */
+.eyebrow {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08), rgba(255, 255, 255, 0.04));
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* Process cards — gradient + inset highlights */
+.process-card {
+  background: linear-gradient(
+    170deg,
+    rgba(255, 255, 255, 0.07) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 4px 16px rgba(0, 0, 0, 0.25);
+}
+
+/* CTA card — enhanced elevated look */
+.cta-card {
+  box-shadow:
+    0 16px 64px rgba(0, 0, 0, 0.5),
+    0 4px 16px rgba(0, 0, 0, 0.3),
+    inset 0 1px 0 rgba(255, 255, 255, 0.15),
+    inset 0 -1px 0 rgba(255, 255, 255, 0.05);
+  background: linear-gradient(
+    160deg,
+    rgba(255, 255, 255, 0.09) 0%,
+    rgba(255, 255, 255, 0.04) 50%,
+    rgba(255, 255, 255, 0.06) 100%
+  );
+}
+
+/* Stat numbers — subtle glow */
+.stat-n {
+  text-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+}
+
+/* Comparison table — depth shadow */
+.comp-wrap {
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.10),
+    0 4px 24px rgba(0, 0, 0, 0.3);
+}
+
+/* Price list rows — subtle gradient */
+.price-row-item {
+  background: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.06) 0%,
+    rgba(255, 255, 255, 0.03) 100%
+  );
+}
+
+/* Primary button — luminous 3D pop */
+.btn-primary {
+  box-shadow:
+    0 4px 16px rgba(255, 255, 255, 0.25),
+    0 1px 3px rgba(255, 255, 255, 0.15);
+}
+.btn-primary:hover {
+  box-shadow:
+    0 8px 32px rgba(255, 255, 255, 0.35),
+    0 2px 8px rgba(255, 255, 255, 0.2);
+}
+
+/* ═══════════════════════════════════════════════════════════════
    RESPONSIVE
    ═══════════════════════════════════════════════════════════════ */
 @media (max-width: 900px) {
