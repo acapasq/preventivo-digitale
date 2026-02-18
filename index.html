@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>Serendip Studio — La Tua Strategia Digitale</title>
+  <meta name="description" content="Presentazione interattiva dei servizi Serendip Studio." />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Noise texture overlay -->
+<div class="noise" aria-hidden="true"></div>
+
+<!-- ═══════════════════════════════════════════
+     TOP BAR — logo · dot nav · counter
+     ═══════════════════════════════════════════ -->
+<div id="topbar">
+  <div class="topbar-logo">Serendip <span>Studio</span></div>
+  <div id="dot-nav" role="tablist" aria-label="Navigazione slide"></div>
+  <div class="topbar-counter">
+    <span id="curr-n">1</span> / <span id="total-n">1</span>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     PRESENTATION
+     ═══════════════════════════════════════════ -->
+<div id="presentation">
+<div id="slides">
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 0 — Cover / Hero
+       data-label: shown in dot tooltip & menu
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="0" data-label="Serendip Studio">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Strategia Digitale — Napoli
+    </div>
+
+    <h1 class="t-display-xl" style="max-width:860px; margin-bottom:1.1rem;">
+      La tua strategia<br><span class="muted">digitale.</span>
+    </h1>
+
+    <p class="t-body semi" style="max-width:460px; margin-bottom:2.25rem;">
+      Un piano su misura per trasformare<br>la tua presenza online in fatturato reale.
+    </p>
+
+    <div class="stats-row">
+      <div class="stat">
+        <div class="stat-n">50+</div>
+        <div class="stat-l">Clienti</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat">
+        <div class="stat-n">12</div>
+        <div class="stat-l">Servizi</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat">
+        <div class="stat-n">4</div>
+        <div class="stat-l">Anni</div>
+      </div>
+      <div class="stat-sep"></div>
+      <div class="stat">
+        <div class="stat-n">100%</div>
+        <div class="stat-l">Custom</div>
+      </div>
+    </div>
+
+  </div><!-- /slide 0 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 1 — Manifesto / Approccio
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="1" data-label="Il Nostro Approccio">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Il Nostro Approccio
+    </div>
+
+    <p class="t-display" style="max-width:800px; margin-bottom:1.5rem;">
+      Non vendiamo servizi.<br><span class="muted">Costruiamo strategie.</span>
+    </p>
+
+    <p class="t-body semi" style="max-width:520px; line-height:1.75;">
+      I brand che crescono oggi non sono i migliori — sono quelli che comunicano meglio.
+      Ogni progetto parte da un'analisi della tua attività e del tuo mercato,
+      non da un listino prezzi.
+    </p>
+
+  </div><!-- /slide 1 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 2 — Obiettivi
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="2" data-label="I Tuoi Obiettivi">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>I Tuoi Obiettivi
+    </div>
+
+    <h2 class="t-title gap-md">Dove vuoi arrivare?</h2>
+
+    <!-- .slide-scroll handles vertical overflow on small screens -->
+    <div class="slide-scroll" style="max-width:880px; width:100%;">
+      <div class="obj-table">
+
+        <div class="obj-row">
+          <div class="obj-left">
+            <span class="obj-icon">📈</span>
+            <span class="obj-name">Più clienti nuovi</span>
+          </div>
+          <div class="obj-desc">Campagne mirate su social e motori di ricerca, SEO locale e Google My Business.</div>
+        </div>
+
+        <div class="obj-row">
+          <div class="obj-left">
+            <span class="obj-icon">🔁</span>
+            <span class="obj-name">Fidelizzare i clienti</span>
+          </div>
+          <div class="obj-desc">Programmi fedeltà, email marketing con offerte esclusive e comunicazione costante.</div>
+        </div>
+
+        <div class="obj-row">
+          <div class="obj-left">
+            <span class="obj-icon">💰</span>
+            <span class="obj-name">Aumentare le vendite</span>
+          </div>
+          <div class="obj-desc">Promozioni stagionali e offerte mirate nei periodi di bassa affluenza.</div>
+        </div>
+
+        <div class="obj-row">
+          <div class="obj-left">
+            <span class="obj-icon">🌐</span>
+            <span class="obj-name">Dominare online</span>
+          </div>
+          <div class="obj-desc">Sito ottimizzato, gestione recensioni Google e TripAdvisor, reputazione presidiata.</div>
+        </div>
+
+        <div class="obj-row">
+          <div class="obj-left">
+            <span class="obj-icon">🤝</span>
+            <span class="obj-name">Partnership strategiche</span>
+          </div>
+          <div class="obj-desc">Collaborazioni con influencer locali per amplificare il messaggio al target giusto.</div>
+        </div>
+
+      </div><!-- /obj-table -->
+    </div><!-- /slide-scroll -->
+
+  </div><!-- /slide 2 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 3 — Servizi Overview
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="3" data-label="I Servizi">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>I Nostri Servizi
+    </div>
+
+    <h2 class="t-title" style="margin-bottom:0.4rem;">Tutto in un unico partner.</h2>
+    <p class="t-body muted gap-lg">12 servizi, 5 categorie, un team dedicato.</p>
+
+    <div class="service-pills" style="justify-content:center; max-width:680px;">
+      <span class="pill">🌐 Web</span>
+      <span class="pill">❇️ Brand Identity</span>
+      <span class="pill">📲 Social Setup</span>
+      <span class="pill">📣 Social META</span>
+      <span class="pill">🎵 TikTok</span>
+      <span class="pill">🙋🏼‍♀️ UGC Creator</span>
+      <span class="pill">🤝 Influencer</span>
+      <span class="pill">📧 Email Marketing</span>
+      <span class="pill">🚀 ADS Meta + Google</span>
+      <span class="pill">📸 Shooting Foto</span>
+      <span class="pill">🎥 Shooting Video</span>
+      <span class="pill">🎨 Brand Kit Social</span>
+    </div>
+
+  </div><!-- /slide 3 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 4 — Sviluppo Sito Web
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="4" data-label="Sviluppo Sito Web">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Sviluppo Sito Web
+    </div>
+
+    <h2 class="t-title gap-md">Il tuo hub digitale.</h2>
+
+    <div class="cards-grid cards-grid-3" style="max-width:960px;">
+
+      <!-- Card: Landing Page -->
+      <div class="card">
+        <div class="card-icon">📄</div>
+        <div class="card-title">Landing Page</div>
+        <div class="card-body">Pagina singola per promuovere un servizio, un prodotto o una campagna.</div>
+        <ul class="feature-list">
+          <li>HTTPS + SEO + Form</li>
+          <li>Privacy &amp; Cookie Policy</li>
+          <li>Responsive mobile</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">da 450€</span>
+          <span class="card-price-t">+ IVA</span>
+        </div>
+      </div>
+
+      <!-- Card: Sito Vetrina -->
+      <div class="card">
+        <div class="card-icon">🏪</div>
+        <div class="card-title">Sito Vetrina</div>
+        <div class="card-body">Sito multi-pagina professionale per farti trovare su Google.</div>
+        <ul class="feature-list">
+          <li>3–5 sezioni ottimizzate</li>
+          <li>Google Search Console</li>
+          <li>Sitemap + indicizzazione</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">da 1.000€</span>
+          <span class="card-price-t">+ IVA</span>
+        </div>
+      </div>
+
+      <!-- Card: E-commerce -->
+      <div class="card">
+        <div class="card-icon">🛒</div>
+        <div class="card-title">E-commerce</div>
+        <div class="card-body">Soluzione completa per vendere online con gestione ordini e pagamenti.</div>
+        <ul class="feature-list">
+          <li>Fino a 30 prodotti</li>
+          <li>Gestione ordini &amp; spedizioni</li>
+          <li>Area riservata cliente</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">da 1.500€</span>
+          <span class="card-price-t">+ IVA</span>
+        </div>
+      </div>
+
+    </div><!-- /cards-grid -->
+
+  </div><!-- /slide 4 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 5 — Brand Identity
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="5" data-label="Brand Identity">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Brand
+    </div>
+
+    <h2 class="t-title gap-md">Il tuo marchio, ovunque.</h2>
+
+    <div class="cards-grid cards-grid-2" style="max-width:780px;">
+
+      <!-- Card: Brand Identity Completa -->
+      <div class="card">
+        <div class="card-icon">❇️</div>
+        <div class="card-title">Brand Identity Completa</div>
+        <div class="card-body">Dall'identità visiva alle linee guida — tutto ciò di cui il tuo brand ha bisogno.</div>
+        <ul class="feature-list">
+          <li>3 proposte logo + Motion Design</li>
+          <li>Palette, tipografia, tono di voce</li>
+          <li>Mockup, packaging, template</li>
+          <li>Linee guida branding complete</li>
+          <li>Piano editoriale personalizzato</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">1.500€</span>
+          <span class="card-price-t">Una tantum + IVA</span>
+        </div>
+      </div>
+
+      <!-- Card: Social Media Brand Kit -->
+      <div class="card">
+        <div class="card-icon">🎨</div>
+        <div class="card-title">Social Media Brand Kit</div>
+        <div class="card-body">Hai già un logo? Questo kit ti dà tutti gli strumenti per comunicare con coerenza sui social.</div>
+        <ul class="feature-list">
+          <li>Template post, storie, video, copertine</li>
+          <li>Banner promozionali</li>
+          <li>File modificabili PSD, AI, Canva</li>
+          <li>Moodboard + piano editoriale</li>
+          <li>Motion Design opzionale (+200€)</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">600€</span>
+          <span class="card-price-t">Una tantum + IVA</span>
+        </div>
+      </div>
+
+    </div><!-- /cards-grid -->
+
+  </div><!-- /slide 5 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 6 — Social Media Marketing (table)
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="6" data-label="Social Media Marketing">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Social Media Marketing
+    </div>
+
+    <h2 class="t-title gap-md">Scegli il piano giusto.</h2>
+
+    <div class="comp-wrap">
+      <div class="comp-scroll">
+        <table class="comp-table" aria-label="Piani Social Media Marketing META">
+          <colgroup>
+            <col class="cf"><!-- features column -->
+            <col class="cp"><!-- Base -->
+            <col class="cp"><!-- Avanzato -->
+            <col class="cp"><!-- Pro -->
+          </colgroup>
+          <thead>
+            <tr>
+              <th></th>
+              <th class="plan">Base</th>
+              <th class="plan">Avanzato</th>
+              <th class="plan">Pro 🏆</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr><td>Contenuti settimanali</td><td>2/sett</td>  <td>3/sett</td>        <td>4/sett</td></tr>
+            <tr><td>Piano editoriale</td>      <td class="ck">✓</td><td class="ck">✓</td><td class="ck">✓</td></tr>
+            <tr><td>Gruppo WhatsApp</td>       <td class="ck">✓</td><td class="ck">✓</td><td class="ck">✓</td></tr>
+            <tr><td>Call trimestrale</td>      <td class="ck">✓</td><td class="ck">✓</td><td class="ck">✓</td></tr>
+            <tr><td>Social Advertising</td>   <td class="cx">—</td><td class="ck">✓</td><td class="ck">✓</td></tr>
+            <tr><td>Contenuti grafici</td>    <td class="cx">—</td><td class="cx">—</td><td class="ck">✓</td></tr>
+            <tr><td>Corso Video/Foto</td>     <td class="cx">—</td><td class="cx">—</td><td class="ck">✓</td></tr>
+            <tr class="price-row">
+              <td>Prezzo mensile</td>
+              <td>600€<small>+ IVA</small></td>
+              <td>800€<small>+ IVA</small></td>
+              <td>1.000€<small>+ IVA</small></td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+  </div><!-- /slide 6 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 7 — TikTok & Influencer
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="7" data-label="TikTok & Influencer">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>TikTok &amp; Influencer
+    </div>
+
+    <h2 class="t-title gap-md">La crescita organica più alta.</h2>
+
+    <div class="cards-grid cards-grid-3" style="max-width:960px;">
+
+      <!-- Card: TikTok -->
+      <div class="card">
+        <div class="card-icon">🎵</div>
+        <div class="card-title">Social Media TikTok</div>
+        <div class="card-body">Il canale dove i tuoi clienti scoprono nuovi brand. Tutto incluso, anche lo shooting.</div>
+        <ul class="feature-list">
+          <li>20 video al mese + copertine</li>
+          <li>Shooting video incluso</li>
+          <li>Piano editoriale + analisi</li>
+          <li>Advertising opzionale (+300€)</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">da 1.200€</span>
+          <span class="card-price-t">Mensile + IVA</span>
+        </div>
+      </div>
+
+      <!-- Card: UGC Creator -->
+      <div class="card">
+        <div class="card-icon">🙋🏼‍♀️</div>
+        <div class="card-title">UGC Creator</div>
+        <div class="card-body">Non vuoi metterci la faccia? Selezioniamo i creator giusti per rappresentarti.</div>
+        <ul class="feature-list">
+          <li>Selezione di 3 Talent</li>
+          <li>Scrittura e guida creativa</li>
+          <li>Negoziazione condizioni</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">100€</span>
+          <span class="card-price-t">Una tantum + IVA</span>
+        </div>
+      </div>
+
+      <!-- Card: Influencer -->
+      <div class="card">
+        <div class="card-icon">🤝</div>
+        <div class="card-title">Influencer Marketing</div>
+        <div class="card-body">La credibilità degli influencer per raggiungere audience nuove e in target.</div>
+        <ul class="feature-list">
+          <li>2 influencer selezionati</li>
+          <li>Negoziazione + guida creativa</li>
+          <li>Report ROI finale</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">300€ + 10% fee</span>
+          <span class="card-price-t">Una tantum + IVA</span>
+        </div>
+      </div>
+
+    </div><!-- /cards-grid -->
+
+  </div><!-- /slide 7 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 8 — ADS & Email Marketing
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="8" data-label="ADS & Email">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Advertising &amp; Email
+    </div>
+
+    <h2 class="t-title gap-md">Massimizza il ROI.</h2>
+
+    <div class="cards-grid cards-grid-2" style="max-width:760px;">
+
+      <!-- Card: ADS -->
+      <div class="card">
+        <div class="card-icon">🚀</div>
+        <div class="card-title">Campagna ADS Meta + Google</div>
+        <div class="card-body">Facebook, Instagram, Google Search, Display, YouTube e Shopping. A/B test continuo e scaling.</div>
+        <ul class="feature-list">
+          <li>Strategia personalizzata su obiettivi</li>
+          <li>Retargeting e remarketing avanzato</li>
+          <li>A/B Testing continuo</li>
+          <li>Report performance completo</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">500€</span>
+          <span class="card-price-t">Mensile + IVA*</span>
+        </div>
+      </div>
+
+      <!-- Card: Email -->
+      <div class="card">
+        <div class="card-icon">📧</div>
+        <div class="card-title">Email Marketing</div>
+        <div class="card-body">ROI fino a 42€ per ogni euro investito. Il canale più redditizio del marketing digitale.</div>
+        <ul class="feature-list">
+          <li>Raccolta contatti + segmentazione</li>
+          <li>Email design con elementi dinamici</li>
+          <li>Automazione flussi trigger-based</li>
+          <li>GDPR compliant</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">600€</span>
+          <span class="card-price-t">Mensile + IVA</span>
+        </div>
+      </div>
+
+    </div><!-- /cards-grid -->
+
+    <p class="t-caption muted" style="margin-top:1rem;">
+      * Budget pubblicitario escluso — da concordare in base agli obiettivi.
+    </p>
+
+  </div><!-- /slide 8 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 9 — Content Creation
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="9" data-label="Content Creation">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Content Creation
+    </div>
+
+    <h2 class="t-title gap-md">Contenuti che raccontano il tuo brand.</h2>
+
+    <div class="cards-grid cards-grid-2" style="max-width:760px;">
+
+      <!-- Card: Shooting Foto -->
+      <div class="card">
+        <div class="card-icon">📸</div>
+        <div class="card-title">Shooting Fotografico</div>
+        <div class="card-body">Sony A7IV, luci professionali, set, post-produzione. ~70 foto pronte alla pubblicazione.</div>
+        <ul class="feature-list">
+          <li>4h shooting professionale</li>
+          <li>Color grading e post-produzione</li>
+          <li>Consegna file RAW</li>
+          <li>Ora extra (+20 foto): +50€</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">da 300€</span>
+          <span class="card-price-t">Una tantum + IVA</span>
+        </div>
+      </div>
+
+      <!-- Card: Shooting Video -->
+      <div class="card">
+        <div class="card-icon">🎥</div>
+        <div class="card-title">Shooting Video</div>
+        <div class="card-body">6 video 4K per i tuoi social e il sito. Dalla sceneggiatura alla post-produzione finale.</div>
+        <ul class="feature-list">
+          <li>4h shooting + microfoni HQ</li>
+          <li>Scrittura, ideazione, montaggio</li>
+          <li>Drone 4K opzionale (+200€)</li>
+          <li>Ora extra (+2 video): +50€</li>
+        </ul>
+        <div class="card-price">
+          <span class="card-price-n">da 400€</span>
+          <span class="card-price-t">Una tantum + IVA</span>
+        </div>
+      </div>
+
+    </div><!-- /cards-grid -->
+
+  </div><!-- /slide 9 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 10 — Case Studies
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="10" data-label="Case Studies">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Case Studies
+    </div>
+
+    <h2 class="t-title" style="margin-bottom:0.35rem;">Risultati reali.</h2>
+    <p class="t-body muted gap-md">Clienti reali, numeri verificabili.</p>
+
+    <div class="cs-grid">
+
+      <!-- Case 1 -->
+      <div class="cs-card">
+        <div class="cs-thumb">Sapori</div>
+        <div class="cs-body">
+          <div class="cs-tags">
+            <span class="cs-tag">Brand</span>
+            <span class="cs-tag">Web</span>
+          </div>
+          <div class="cs-client">Ristorante — Napoli</div>
+          <div class="cs-title">Da zero a marchio riconoscibile in 30 giorni</div>
+          <div class="cs-metrics">
+            <div><div class="cs-m-n">+340%</div><div class="cs-m-l">Visite</div></div>
+            <div><div class="cs-m-n">+120%</div><div class="cs-m-l">Prenotaz.</div></div>
+            <div><div class="cs-m-n">4,8★</div><div class="cs-m-l">Google</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case 2 -->
+      <div class="cs-card">
+        <div class="cs-thumb">Mode</div>
+        <div class="cs-body">
+          <div class="cs-tags">
+            <span class="cs-tag">TikTok</span>
+            <span class="cs-tag">Video</span>
+          </div>
+          <div class="cs-client">Boutique — Campania</div>
+          <div class="cs-title">500K views TikTok in 3 mesi da 200 follower</div>
+          <div class="cs-metrics">
+            <div><div class="cs-m-n">500K+</div><div class="cs-m-l">Views</div></div>
+            <div><div class="cs-m-n">+8.200</div><div class="cs-m-l">Follower</div></div>
+            <div><div class="cs-m-n">+65%</div><div class="cs-m-l">Vendite</div></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Case 3 -->
+      <div class="cs-card">
+        <div class="cs-thumb">Shop</div>
+        <div class="cs-body">
+          <div class="cs-tags">
+            <span class="cs-tag">E-com</span>
+            <span class="cs-tag">ADS</span>
+          </div>
+          <div class="cs-client">Artigianato — Sud Italia</div>
+          <div class="cs-title">ROAS 8x e +290% fatturato in 60 giorni</div>
+          <div class="cs-metrics">
+            <div><div class="cs-m-n">8x</div><div class="cs-m-l">ROAS</div></div>
+            <div><div class="cs-m-n">+290%</div><div class="cs-m-l">Fatturato</div></div>
+            <div><div class="cs-m-n">12K€</div><div class="cs-m-l">Mese 2</div></div>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /cs-grid -->
+
+  </div><!-- /slide 10 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 11 — Come Lavoriamo (Processo)
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="11" data-label="Come Lavoriamo">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Il Nostro Processo
+    </div>
+
+    <h2 class="t-title gap-md">Dalle parole ai risultati.</h2>
+
+    <div class="process-grid">
+
+      <div class="process-card">
+        <div class="process-num">01</div>
+        <div class="process-tag">Setup</div>
+        <div class="process-title">Configurazione Canali</div>
+        <p class="process-desc">Profili social, template grafici, tono di voce e obiettivi condivisi.</p>
+        <span class="process-when">Giorno 0–7</span>
+      </div>
+
+      <div class="process-card">
+        <div class="process-num">02</div>
+        <div class="process-tag">Content</div>
+        <div class="process-title">Produzione Contenuti</div>
+        <p class="process-desc">Foto e video prodotti seguendo un piano condiviso e approvato con te.</p>
+        <span class="process-when">Giorno 7–15</span>
+      </div>
+
+      <div class="process-card">
+        <div class="process-num">03</div>
+        <div class="process-tag">Strategia</div>
+        <div class="process-title">Piano Editoriale</div>
+        <p class="process-desc">Contenuti strutturati in un Piano Editoriale con obiettivi misurabili.</p>
+        <span class="process-when">Giorno 15–20</span>
+      </div>
+
+      <div class="process-card">
+        <div class="process-num">04</div>
+        <div class="process-tag">Go Live</div>
+        <div class="process-title">Avvio &amp; Boost</div>
+        <p class="process-desc">Pubblicazione + campagne sponsorizzate per i primi risultati concreti.</p>
+        <span class="process-when">Giorno 20–30</span>
+      </div>
+
+    </div><!-- /process-grid -->
+
+  </div><!-- /slide 11 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 12 — Il Team
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="12" data-label="Il Team">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Il Team
+    </div>
+
+    <h2 class="t-title" style="margin-bottom:0.35rem;">Le persone dietro i risultati.</h2>
+    <p class="t-body muted gap-lg">Un gruppo WhatsApp dedicato per comunicare in tempo reale.</p>
+
+    <div class="team-grid">
+      <div class="team-card">
+        <div class="team-av">PA</div>
+        <div class="team-role">Project &amp; Account Mgr</div>
+        <div class="team-name">Pasquale</div>
+      </div>
+      <div class="team-card">
+        <div class="team-av">AN</div>
+        <div class="team-role">Designer &amp; SMM</div>
+        <div class="team-name">Angelo</div>
+      </div>
+      <div class="team-card">
+        <div class="team-av">LU</div>
+        <div class="team-role">Designer &amp; SMM</div>
+        <div class="team-name">Luca</div>
+      </div>
+      <div class="team-card">
+        <div class="team-av">AD</div>
+        <div class="team-role">ADS &amp; TikTok</div>
+        <div class="team-name">Andrea</div>
+      </div>
+      <div class="team-card">
+        <div class="team-av">LI</div>
+        <div class="team-role">Social Media Mgr</div>
+        <div class="team-name">Liliana</div>
+      </div>
+      <!-- span 2 cols for the creators card -->
+      <div class="team-card" style="grid-column: span 2;">
+        <div class="team-av">CC</div>
+        <div class="team-role">Content Creators</div>
+        <div class="team-name" style="font-size:10.5px;">Valerio · Antonio · Alessia · Rebecca</div>
+      </div>
+    </div><!-- /team-grid -->
+
+  </div><!-- /slide 12 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 13 — Riepilogo Prezzi
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="13" data-label="Riepilogo Prezzi">
+
+    <div class="eyebrow">
+      <span class="eyebrow-dot"></span>Riepilogo Economico
+    </div>
+
+    <h2 class="t-title" style="margin-bottom:0.35rem;">Trasparenza totale.</h2>
+    <p class="t-body muted gap-md">Tutti i prezzi, nessuna sorpresa.</p>
+
+    <div class="price-list">
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">🌐</span><span class="price-row-name">Sviluppo Sito Web</span></div>
+        <div class="price-row-right"><div class="price-row-price">da 450€</div><div class="price-row-type">Una tantum + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">❇️</span><span class="price-row-name">Brand Identity</span></div>
+        <div class="price-row-right"><div class="price-row-price">da 1.500€</div><div class="price-row-type">Una tantum + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">🎨</span><span class="price-row-name">Social Media Brand Kit</span></div>
+        <div class="price-row-right"><div class="price-row-price">600€</div><div class="price-row-type">Una tantum + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">📲</span><span class="price-row-name">Setup Canali Social</span></div>
+        <div class="price-row-right"><div class="price-row-price">400€</div><div class="price-row-type">Una tantum + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">📣</span><span class="price-row-name">Social Media META</span></div>
+        <div class="price-row-right"><div class="price-row-price">600–1.000€</div><div class="price-row-type">Mensile + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">🎵</span><span class="price-row-name">Social Media TikTok</span></div>
+        <div class="price-row-right"><div class="price-row-price">da 1.200€</div><div class="price-row-type">Mensile + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">📧</span><span class="price-row-name">Email Marketing</span></div>
+        <div class="price-row-right"><div class="price-row-price">600€</div><div class="price-row-type">Mensile + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">🚀</span><span class="price-row-name">Campagna ADS Meta + Google</span></div>
+        <div class="price-row-right"><div class="price-row-price">500€</div><div class="price-row-type">Mensile + IVA*</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">🤝</span><span class="price-row-name">Influencer Marketing</span></div>
+        <div class="price-row-right"><div class="price-row-price">300€ + 10%</div><div class="price-row-type">Una tantum + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">📸</span><span class="price-row-name">Shooting Fotografico</span></div>
+        <div class="price-row-right"><div class="price-row-price">da 300€</div><div class="price-row-type">Una tantum + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">🙋🏼‍♀️</span><span class="price-row-name">UGC Creator</span></div>
+        <div class="price-row-right"><div class="price-row-price">da 100€</div><div class="price-row-type">Una tantum + IVA</div></div>
+      </div>
+      <div class="price-row-item">
+        <div class="price-row-left"><span class="price-row-icon">🎥</span><span class="price-row-name">Shooting Video</span></div>
+        <div class="price-row-right"><div class="price-row-price">da 400€</div><div class="price-row-type">Una tantum + IVA</div></div>
+      </div>
+    </div><!-- /price-list -->
+
+  </div><!-- /slide 13 -->
+
+
+  <!-- ─────────────────────────────────────────
+       SLIDE 14 — CTA / Contatti
+       ───────────────────────────────────────── -->
+  <div class="slide" data-index="14" data-label="Iniziamo">
+
+    <div class="cta-card">
+
+      <div class="eyebrow" style="justify-content:center;">
+        <span class="eyebrow-dot"></span>Pronti a Crescere?
+      </div>
+
+      <h2 class="t-title gap-sm" style="text-align:center;">
+        Costruiamo insieme<br>la tua strategia.
+      </h2>
+
+      <p class="t-body semi gap-md" style="text-align:center; max-width:380px; margin-left:auto; margin-right:auto;">
+        Preventivo personalizzato, gratuito, valido 30 giorni.
+        Nessun listino fisso — solo soluzioni su misura.
+      </p>
+
+      <div class="btn-row">
+        <a href="mailto:studio@serendip.it" class="btn-primary">
+          Richiedi il Preventivo
+          <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true">
+            <path d="M2 6.5h9M6.5 2l4.5 4.5L6.5 11" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+        </a>
+        <a href="tel:+39000000000" class="btn-secondary">Chiama Ora</a>
+      </div>
+
+      <div class="cta-contacts">
+        <div class="cta-contact">
+          <div class="cta-contact-label">Email</div>
+          <div class="cta-contact-val">studio@serendip.it</div>
+        </div>
+        <div class="cta-contact">
+          <div class="cta-contact-label">Telefono</div>
+          <div class="cta-contact-val">+39 000 000 0000</div>
+        </div>
+        <div class="cta-contact">
+          <div class="cta-contact-label">Sede</div>
+          <div class="cta-contact-val">Napoli, Italia</div>
+        </div>
+      </div>
+
+    </div><!-- /cta-card -->
+
+  </div><!-- /slide 14 -->
+
+</div><!-- /slides -->
+</div><!-- /presentation -->
+
+<!-- ═══════════════════════════════════════════
+     BOTTOM NAVIGATION BAR
+     ═══════════════════════════════════════════ -->
+<div id="bottom-nav" role="navigation" aria-label="Controlli presentazione">
+  <button class="nav-btn" id="btn-prev" aria-label="Slide precedente" disabled>
+    <svg viewBox="0 0 16 16" fill="none"><path d="M10 3L5 8l5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <span id="slide-label" aria-live="polite"></span>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <button class="nav-btn" id="btn-next" aria-label="Slide successiva">
+    <svg viewBox="0 0 16 16" fill="none"><path d="M6 3l5 5-5 5" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+  <div class="nav-divider" aria-hidden="true"></div>
+  <button class="nav-btn" id="menu-btn" aria-label="Apri indice slide" aria-haspopup="true">
+    <svg viewBox="0 0 16 16" fill="none" width="16" height="16">
+      <circle cx="8" cy="3"  r="1.2" fill="currentColor"/>
+      <circle cx="8" cy="8"  r="1.2" fill="currentColor"/>
+      <circle cx="8" cy="13" r="1.2" fill="currentColor"/>
+    </svg>
+  </button>
+</div>
+
+<!-- ═══════════════════════════════════════════
+     MENU OVERLAY — slide index
+     ═══════════════════════════════════════════ -->
+<div id="menu-overlay" role="dialog" aria-modal="true" aria-label="Indice slide" aria-hidden="true">
+  <button class="menu-close" id="menu-close-btn" aria-label="Chiudi indice">&#x2715;</button>
+  <!-- Items injected by app.js -->
+  <div id="menu-list"></div>
+</div>
+
+<!-- JavaScript -->
+<script src="app.js"></script>
+
+</body>
+</html>
