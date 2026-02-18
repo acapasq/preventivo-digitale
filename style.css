@@ -699,6 +699,13 @@ html, body {
   .card-price-n { font-size: 0.82rem; }
   .card-price-t { font-size: 8.5px; }
 
+  /* Compact process cards on mobile */
+  .process-card  { padding: 1rem; }
+  .process-num   { font-size: 1.6rem; margin-bottom: 0.4rem; }
+  .process-desc  { font-size: 0.65rem; }
+  .process-when  { margin-top: 0.4rem; }
+  .process-grid  { gap: 8px; }
+
   /* Compact cards on mobile */
   .card          { padding: 0.75rem; }
   .card-icon     { font-size: 1.2rem; margin-bottom: 0.5rem; }
