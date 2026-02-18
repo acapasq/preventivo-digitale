@@ -716,6 +716,12 @@ html, body {
   .card-price    { margin-top: 0.5rem; padding-top: 0.5rem; }
   .cards-grid    { gap: 8px; }
 
+  /* Compact price list on mobile */
+  .price-row-item  { padding: 8px 10px; gap: 0.5rem; }
+  .price-row-name  { font-size: 10px; }
+  .price-row-price { font-size: 11px; }
+  .price-row-type  { font-size: 8px; }
+
   /* Eyebrow */
   .eyebrow { font-size: 9.5px; padding: 4px 11px; margin-bottom: 0.85rem; }
 }
