@@ -669,7 +669,7 @@ html, body {
   /* Typography */
   .t-display-xl { font-size: 2.4rem; }
   .t-display    { font-size: 1.9rem; }
-  .t-title      { font-size: 1.4rem; }
+  .t-title      { font-size: 1.25rem; }
 
   /* All grids collapse */
   .cards-grid-3, .cards-grid-2 { grid-template-columns: 1fr; }
