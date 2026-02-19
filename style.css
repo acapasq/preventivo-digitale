@@ -697,6 +697,14 @@ html, body {
   background: var(--w06);
   border: 1px solid var(--border);
   color: rgba(255, 255, 255, 0.55);
+  cursor: pointer;
+  transition: all 0.18s var(--ea);
+  font-family: var(--font);
+}
+.pill:hover {
+  background: var(--w10);
+  color: rgba(255, 255, 255, 0.75);
+  border-color: var(--border-h);
 }
 
 /* ═══════════════════════════════════════════════════════════════

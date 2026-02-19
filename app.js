@@ -212,4 +212,15 @@
   slides[0].classList.add('active');
   updateUI();
 
+  /* ─────────────────────────────────────────────────────────────
+     SERVICE PILLS NAVIGATION
+     ───────────────────────────────────────────────────────────── */
+  document.addEventListener('click', function (e) {
+    var pill = e.target.closest('[data-go-to]');
+    if (pill) {
+      var target = parseInt(pill.getAttribute('data-go-to'), 10);
+      if (!isNaN(target)) goTo(target);
+    }
+  });
+
 }());
